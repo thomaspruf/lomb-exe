@@ -2,6 +2,7 @@ The Lomb-Scargle periodogram is a highly sensitive tool in the search for rhythm
 Here, I provide executables for Mac, Linux, and Windows designed to compute the Lomb-Scargle periodogram for data stored in a comma separated file (.csv, as can be created e.g. in Microsoft Excel©.) First, chane the name of "lomb Mac" or "lomb Unix" to "lomb".
 
 The program is called at a minimum with
+
 lomb data.csv      (use ./lomb data.csv on Mac or Linux)
 
 where “data.csv” is an example file name in the same directory. Analysed will be the columns named t and y for measurement times and signal. Other columns will be ignored. To use other names, such as „times” and “activity” use switches (with double minus):
